@@ -25,8 +25,9 @@
 </head>
 
 <body class="raleway-normal lg:mx-[135px] md:mx-10">
+    <!-- banner and nav section  -->
     <header>
-        <nav class=" ">
+        <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -62,13 +63,13 @@
             </div>
         </nav>
         <!-- header img background section  -->
-        <section>
-            <div class="relative bg-no-repeat bg-cover  bg-center w-full min-h-screen sm:rounded-xl"
+        <section class="-z-10">
+            <div class="relative bg-no-repeat bg-cover  bg-center w-full sm:h-[36rem] h-96  sm:rounded-xl"
                 style="background-image: url(images/banner.png);">
                 <!-- text div part are completed -->
                 <div class="absolute inset-0 flex flex-col items-center text-center gap-y-10 sm:p-16 p-5 pb-10">
-                    <h1 class="font-extrabold lg:text-6xl md:text-4xl text-3xl text-white">
-                        End-to-End Travel with <br><span class="text-green-500">DUNE Paribahan</span>
+                    <h1 class="font-extrabold xl:text-6xl md:text-4xl text-white ">
+                        End-to-End Travel with <br><span class="text-green-500 leading-loose">DUNE Paribahan</span>
                     </h1>
                     <p class="lg:font-normal text-sm text-white">Yes, you can run unit tests and view the
                         results
@@ -80,10 +81,44 @@
             </div>
         </section>
     </header>
+    <!--  number card section -->
+    <section class="relative -mt-16">
+        <div class="sm:flex sm:justify-evenly z-10 md:gap-2 md:px-5">
+            <!--card-1  -->
+            <div
+                class=" flex items-center justify-center gap-x-3 p-8 bg-white rounded-3xl border-b-4 border-green-500 sm:w-96">
+                <div>
+                    <i class="fa-solid fa-people-group text-green-500 text-3xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-3xl">500K+</h1>
+                    <p class="font-normal text-sm">Registered users</p>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div
+                class=" flex items-center justify-center gap-x-3 p-8 bg-white rounded-3xl border-b-4 border-green-500 sm:w-96">
+                <div>
+                    <i class="fa-solid fa-ticket text-green-500 text-3xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-3xl">1.7 lacks</h1>
+                    <p class="font-normal text-sm">Tickets sold</p>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div
+                class=" flex items-center justify-center gap-x-3 p-8 bg-white rounded-3xl border-b-4 border-green-500 sm:w-96">
+                <div>
+                    <i class="fa-solid fa-truck-moving text-green-500 text-3xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-3xl">80K+</h1>
+                    <p class="font-normal text-sm">Rental partners</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
-
-<!--  -->
-
-<!-- bg-[url(images/banner.png)] -->
