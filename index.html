@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>DUNE BUS TICKET</title>
+    <style>
+        .raleway-normal {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="raleway-normal lg:mx-[135px] md:mx-10">
+    <header>
+        <nav class=" ">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl"><b><i>Dune-ticket</i></b></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end text-green-400">
+                    <a class="btn bg-green-100 text-green-400 border border-green-400"><b>Bus <i
+                                class=" fa-solid fa-bus"></i></b></a>
+                </div>
+            </div>
+        </nav>
+        <!-- header img background section  -->
+        <section>
+            <div class="relative bg-no-repeat bg-cover  bg-center w-full min-h-screen sm:rounded-xl"
+                style="background-image: url(images/banner.png);">
+                <!-- text div part are completed -->
+                <div class="absolute inset-0 flex flex-col items-center text-center gap-y-10 sm:p-16 p-5 pb-10">
+                    <h1 class="font-extrabold lg:text-6xl md:text-4xl text-3xl text-white">
+                        End-to-End Travel with <br><span class="text-green-500">DUNE Paribahan</span>
+                    </h1>
+                    <p class="lg:font-normal text-sm text-white">Yes, you can run unit tests and view the
+                        results
+                        directly within the app.
+                        The integrated testing features
+                        allow for a streamlined .</p>
+                    <button class="btn bg-green-500 text-black font-bold border-none">Buy Tickets</button>
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
+
+<!--  -->
+
+<!-- bg-[url(images/banner.png)] -->
